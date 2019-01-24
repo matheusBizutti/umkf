@@ -1,0 +1,15 @@
+<div class="thf-wrapper">
+  <thf-menu
+    [t-filter]="filter"
+    [t-menus]="items">
+  </thf-menu>
+
+  <thf-toolbar
+    t-title="U.M.K.F - KONG FU"
+    [t-profile]="profile"
+    [t-profile-actions]="profileActions"
+    [t-show-notification]="false">
+  </thf-toolbar>
+
+  <router-outlet></router-outlet>
+</div>

@@ -1,0 +1,8 @@
+<thf-page-login
+  t-background="../../assets/images/umkf_logo.png"
+  t-hide-remember-user
+  t-recovery-url="/change-password"
+  t-register-url="/signup"
+  [t-literals]="customLiterals"
+  (t-login-submit)="signIn($event)">
+</thf-page-login>
